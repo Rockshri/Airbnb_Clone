@@ -1,0 +1,45 @@
+.card-container{
+    margin:10px 30px ;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items:flex-start;
+    gap: 30px;
+}
+.card{
+    height: 370px;
+    width: 300px;
+    /* border: 1px solid red; */
+    border-radius: 28px;
+}
+.photo-container, .photo{
+    height:250px ;
+    width: 100%;
+    border-radius: 28px;
+    
+}
+
+.address-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid red; */
+    font-weight: 600;
+    padding: 3px 8px;
+    
+}
+
+.description, .date{
+    opacity: 0.7;
+    padding: 0px 8px;
+}
+.rate{
+    margin-top: 10px;
+    font-weight: 600;
+   padding: 0px 8px;
+}
+.star{
+    padding:0px 2px
+}

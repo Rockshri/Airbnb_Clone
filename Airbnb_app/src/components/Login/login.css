@@ -1,0 +1,90 @@
+.Container{
+    /* padding-top: 3px; */
+   /* height: 670px; */
+    /* width: 110vw; */
+    background-color: aqua;
+    
+}
+.login-container{
+    height: 500px;
+    background-color: aqua;
+}
+
+.background-image{
+    height: 670px;
+    width: 100%;
+    object-fit: 100%;
+}
+.login-box{
+position: absolute;
+top: 15%;
+left: 4%;
+/* border: 1px solid black; */
+height: 500px;
+width: 600px;
+background-color:rgba(0, 0, 0, 0.461);
+border-radius: 10px;
+}
+.login-or-signup{
+    height: 70px;
+    width:100%;
+    border-bottom:2px solid grey ;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    letter-spacing: 2px;
+}
+.welcome-div{
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    padding: 20px 40px;
+    /* border: 1px solid yellow; */
+    letter-spacing: 4px;
+}
+.email-id{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 40px;
+    letter-spacing: 1px;
+}
+.input-email{
+    display: block;
+    margin: 20px 0px;
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    height: 35px;
+    padding:8px;
+}
+.input-password{
+    display: block;
+    margin: 20px 0px;
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    height: 35px;
+    padding:8px;
+}
+.login-button{
+    margin: 40px;
+    border: none;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgba(11, 171, 11, 0.913);
+}
+.signup-button{
+    margin: 40px;
+    border: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: rgba(249, 36, 36, 0.913);
+}
